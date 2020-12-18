@@ -7,7 +7,7 @@
 
 ### Settings ###
 
-logfile="/tmp/prune.log";
+logfile="/tmp/prune.log"
 prunepath=""
 days=30
 recursive=1
