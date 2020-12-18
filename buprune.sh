@@ -34,7 +34,7 @@ if [ $dryrun -eq "1" ]
   then
     echo 'DRY RUN' >> $logfile
   else
-    find $pp -mtime +30 -type f -delete >> $logfile
+    find $pp -mtime +$days -type f -delete >> $logfile
 fi
 
 echo 'Scheduled pruning complete' >> $logfile
